@@ -1,16 +1,183 @@
 <!DOCTYPE html>
 <html lang="ja">
-  <head>
-    <meta charset="utf-8">
-    <title>ページタイトル</title>
-    <meta name="description" content="ページの説明">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
-  </head>
-  <body>
 
-    <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/script.js"></script>
-  </body>
+<head>
+  <meta charset="utf-8">
+  <title>ページタイトル</title>
+  <meta name="description" content="ページの説明">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <header class="header">
+    <nav class="header__nav">
+      <ul class="header__nav-list">
+        <li class="header__nav-item"><a class="header__nav-link" href="#mv">TOP</a></li>
+        <li class="header__nav-item"><a class="header__nav-link" href="#concept">CONCEPT</a></li>
+        <li class="header__nav-item"><a class="header__nav-link" href="#menu">MENU</a></li>
+        <li class="header__nav-item"><a class="header__nav-link" href="#staff">STAFF</a></li>
+        <li class="header__nav-item"><a class="header__nav-link" href="#instagram">INSTAGRAM</a></li>
+        <li class="header__nav-item"><a class="header__nav-link" href="#shopinfo">SHOP INFO</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="mv">
+  </div>
+
+  <main class="main">
+    <section class="sec" id="concept">
+      <h2 class="sec__title">CONCEPT</h2>
+      <p class="sec__txt_big">貴方の時間を大切に…。</p>
+      <p class="sec__txt_small">
+        お客様に心からリラックスして頂く為、<br>ゆったりとした落ち着いた空間作りを心がけます。<br>シャンプーから仕上げまで一人のスタッフが責任を持って担当いたします。<br>メンズの方にもオススメです。
+      </p>
+    </section>
+    <section class="sec" id="menu">
+      <h2 class="sec__title">MENU</h2>
+
+      <table class="sec__table">
+        <tr>
+          <th class="sec__table-head" colspan="2">CUT</th>
+        </tr>
+        <tr>
+          <th class="sec__table-course">オーナーカット</th>
+          <td class="sec__table-price">￥6,000</td>
+        </tr>
+        <tr>
+          <th class="sec__table-course">スタイリストカット</th>
+          <td class="sec__table-price">￥4,500</td>
+        </tr>
+        <tr>
+          <th class="sec__table-course">メンズカット</th>
+          <td class="sec__table-price">￥4,000</td>
+        </tr>
+      </table>
+      <table class="sec__table">
+        <tr>
+          <th class="sec__table-head" colspan="2">COLOR</th>
+        </tr>
+        <tr>
+          <th class="sec__table-course">カラー</th>
+          <td class="sec__table-price">￥5,000</td>
+        </tr>
+        <tr>
+          <th class="sec__table-course">リタッチカラー</th>
+          <td class="sec__table-price">￥4,000</td>
+        </tr>
+        <tr>
+          <th class="sec__table-course">Tゾーンカラー</th>
+          <td class="sec__table-price">￥3,000</td>
+        </tr>
+        <tr>
+          <th class="sec__table-course">ハイライトカラー</th>
+          <td class="sec__table-price">要問合せ</td>
+        </tr>
+      </table>
+      <table class="sec__table">
+        <tr>
+          <th class="sec__table-head" colspan="2">PERM</th>
+        </tr>
+        <tr>
+          <th class="sec__table-course">ナチュラルウェーブ</th>
+          <td class="sec__table-price">￥5,000（カット別）</td>
+        </tr>
+        <tr>
+          <th class="sec__table-course">ベーシックストレートパーマ</th>
+          <td class="sec__table-price">￥8,500（カット込）</td>
+        </tr>
+        <tr>
+          <th class="sec__table-course">ストレートパーマ</th>
+          <td class="sec__table-price">￥10,000（カット込）</td>
+        </tr>
+        <tr>
+          <th class="sec__table-course">セクションパーマ</th>
+          <td class="sec__table-price">￥3,000～</td>
+        </tr>
+      </table>
+      <table class="sec__table">
+        <tr>
+          <th class="sec__table-head" colspan="2">RELAX PERM</th>
+        </tr>
+        <tr>
+          <th class="sec__table-course">縮毛矯正</th>
+          <td class="sec__table-price">￥14,500（カット込）</td>
+        </tr>
+        <tr>
+          <th class="sec__table-course">部分縮毛矯正</th>
+          <td class="sec__table-price">要問合せ</td>
+        </tr>
+        <tr>
+          <th class="sec__table-course">バング矯正</th>
+          <td class="sec__table-price">￥3,000</td>
+        </tr>
+        <tr>
+          <th class="sec__table-course">リタッチ矯正</th>
+          <td class="sec__table-price">￥8,000（カット別）</td>
+        </tr>
+      </table>
+      <table class="sec__table">
+        <tr>
+          <th class="sec__table-head" colspan="2">TREATMENT</th>
+        </tr>
+        <tr>
+          <th class="sec__table-course">クイックトリートメント</th>
+          <td class="sec__table-price">￥1,000</td>
+        </tr>
+        <tr>
+          <th class="sec__table-course">5ステップトリートメント</th>
+          <td class="sec__table-price">￥4,000</td>
+        </tr>
+        <tr>
+          <th class="sec__table-course">トリートメントカラー</th>
+          <td class="sec__table-price">￥3,000</td>
+        </tr>
+      </table>
+      <table class="sec__table">
+        <tr>
+          <th class="sec__table-head" colspan="2">OTHER</th>
+        </tr>
+        <tr>
+          <th class="sec__table-course">シャンプー・ブロー</th>
+          <td class="sec__table-price">￥2,500</td>
+        </tr>
+      </table>
+      <div class="sec__attention">
+        <p class="sec__txt sec__txt-menu1">ロング料金はかかりません。</p>
+        <p class="sec__txt sec__txt-menu2">価格は税込み</p>
+      </div>
+    </section>
+    <section class="sec" id="staff">
+      <h2 class="sec__title">STAFF</h2>
+    </section>
+    <section class="sec" id="instagram">
+      <h2 class="sec__title">INSTAGRAM</h2>
+    </section>
+    <section class="sec" id="shopinfo">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2915.146959242378!2d141.35479551547863!3d43.05937662914617!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f0b2982e98cc721%3A0x52e6f67314aa90f1!2z44CSMDYwLTAwNjEg5YyX5rW36YGT5pyt5bmM5biC5Lit5aSu5Yy65Y2X77yR5p2h6KW_77yR5LiB55uu77yR77yT4oiS77yRIOODnuODiuODvOeZvemzpQ!5e0!3m2!1sja!2sjp!4v1515048702669" allowfullscreen></iframe>
+      <h2 class="sec__title">SHOP INFO</h2>
+      <p class="sec__address">
+        札幌市中央区南1条西1丁目13-1<br> マナー白鳥1001号室（10階）
+      </p>
+      <p class="sec__access">
+        地下鉄34番出口　徒歩1分（1階ローソン）
+      </p>
+      <p class="sec__time">
+        営業時間　11：00～20：00<br> 定休日　毎週火曜日、第3月曜日
+      </p>
+      <p class="sec__tel">011(232)0286　※完全予約制</p>
+    </section>
+  </main>
+  <footer class="footer">
+    <p>
+      <small>&copy;Panaché All Rights Reserved.</small>
+    </p>
+  </footer>
+
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
 </html>

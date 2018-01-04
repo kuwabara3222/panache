@@ -1,12 +1,26 @@
 %cf {
-    &::after {
-        content: "";
-        clear: both;
-        display: block;
-    }
+  &::after {
+    content: "";
+    clear: both;
+    display: block;
+  }
 }
 
-@mixin rem($base:14){
-    font-size: $base+px;
-    font-size: ($base/10)+rem;
+@mixin rem($base:14) {
+  font-size: $base+px;
+  font-size: ($base/10)+rem;
 }
+
+$size-max: 1000px;
+$color-base: #2f2a19;
+$color-txt: #fff;
+$color-hover: #797979;
+$lh-title: 1;
+$lh-txt: 1.9;
+$ls-txt: 0.2em;
+@import url('https://fonts.googleapis.com/earlyaccess/notosansjapanese.css');
+$font-jp: "Noto Sans Japanese light",
+"游ゴシック" Sans-Serif;
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200');
+$font-en: 'Montserrat',
+sans-serif;
