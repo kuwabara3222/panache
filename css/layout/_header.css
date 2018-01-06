@@ -1,0 +1,12 @@
+.header__logo {
+  width: 155px;
+  height: 192px;
+  background: url(../img/mv_logo@2x.png);
+  background-size: 100% 100%; }
+
+.header__nav {
+  background-color: rgba(27, 27, 27, 0.8); }
+  .header__nav-list {
+    list-style-type: none; }
+  .header__nav-link {
+    color: #fff; }
