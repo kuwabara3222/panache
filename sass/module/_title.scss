@@ -1,0 +1,8 @@
+.sec-title {
+  font-family: $font-title;
+  @include rem(30);
+  letter-spacing: $ls-title;
+  font-weight: normal;
+  text-align: center;
+  margin-bottom: 60px;
+}

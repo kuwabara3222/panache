@@ -4,7 +4,8 @@ html {
 
 body {
   min-width: 320px;
-  color: #fff;
+  color: $color-txt;
+  font-family: $font-jp;
 }
 
 //共通のcss

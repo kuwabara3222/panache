@@ -1,0 +1,33 @@
+.sec-concept {
+  background: url(../../img/concept_bg@2x.jpg) no-repeat center center;
+  background-size: cover;
+  &__txt-container {
+    padding: 0 30px;
+  }
+  &__txt_big {
+    text-align: center;
+    font-family: $font-mincho;
+    @include rem(18);
+    margin-bottom: 40px;
+    letter-spacing: $ls-jp-txt;
+  }
+  &__txt_small {
+    line-height: $lh-txt;
+    @include rem(14);
+    max-width: 380px;
+    margin: 0 auto;
+    letter-spacing: $ls-jp-txt;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .sec-concept {
+    &__txt_big {
+      text-align: left;
+    }
+    &__txt_small {
+      margin: 0 0;
+      max-width: 1000px;
+    }
+  }
+}

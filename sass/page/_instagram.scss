@@ -1,0 +1,22 @@
+.sec-instagram {
+  text-align: center;
+  background: url(../../img/bg_sp.jpg) repeat;
+  padding: 100px 0;
+  &__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+}
+
+.insta-link {
+  padding: 5px;
+}
+
+@media screen and (min-width:768px) {
+  .sec-instagram {
+    background: url(../../img/bg_pc.jpg) no-repeat center center;
+    background-size: cover;
+  }
+}

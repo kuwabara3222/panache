@@ -1,1 +1,12 @@
-
+.sec-shopinfo {
+  background-color: $color-base;
+  &__container {
+    padding: 0 30px;
+    @include rem(14);
+    line-height: $lh-txt;
+    letter-spacing: $ls-jp-txt;
+  }
+  &__item {
+    margin-bottom: 20px;
+  }
+}

@@ -11,20 +11,33 @@
   font-size: ($base/10)+rem;
 }
 
+.inner {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
 $size-max: 1000px;
 $color-base: #2f2a19;
 $color-txt: #fff;
-$color-hover: #797979;
+$color-txt2: #2e1a09;
+$color-hover: #624e3e;
 $lh-title: 1;
 $lh-txt: 1.9;
-$ls-txt: 0.2em;
+$ls-title: 0.2em;
+$ls-jp-txt: 0.1em;
+$ls-en-txt: 0.05em;
 @import url('https://fonts.googleapis.com/earlyaccess/notosansjapanese.css');
+@import url('https://fonts.googleapis.com/earlyaccess/sawarabimincho.css');
 $font-jp: "Noto Sans Japanese light",
 "游ゴシック",
 Sans-Serif;
-@import url('https://fonts.googleapis.com/css?family=Crimson+Text|Oranienbaum');
+$font-mincho: "Sawarabi Mincho",
+Sans-Serif;
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text|Montserrat|Oranienbaum');
 $font-title: 'Oranienbaum',
 'Crimson Text',
 sans-serif;
 $font-en: 'Crimson Text',
+sans-serif;
+$font-en2: 'Montserrat',
 sans-serif;

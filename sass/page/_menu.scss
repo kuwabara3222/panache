@@ -1,0 +1,54 @@
+.sec-menu {
+  background: url(../img/bg_sp.jpg) repeat;
+  color: $color-txt2;
+  &__table {
+    width: 275px;
+    margin: 0 auto 30px;
+    &-txt_small {
+      @include rem(10);
+    }
+    &-head {
+      padding-bottom: 20px;
+      text-align: left;
+      font-family: $font-title;
+      @include rem(18);
+      letter-spacing: $ls-title;
+    }
+    &-course {
+      font-family: $font-en;
+      @include rem(13);
+      text-align: left;
+      padding-bottom: 20px;
+      letter-spacing: $ls-en-txt;
+      width: 200px;
+    }
+    &-price {
+      width: 75px;
+      font-family: $font-mincho;
+      @include rem(12);
+      text-align: right;
+    }
+  }
+  &__txt {
+    text-align: right;
+    margin-bottom: 10px;
+    &.last {
+      margin-bottom: 0;
+    }
+  }
+}
+
+@media screen and (min-width:768px) {
+  .sec-menu {
+    background: url(../img/bg_pc.jpg) no-repeat center center;
+    background-size: cover;
+    &__table {
+      margin: 0 20px 30px;
+    }
+    &__table-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+  }
+}

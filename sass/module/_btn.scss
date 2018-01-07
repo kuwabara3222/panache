@@ -1,0 +1,18 @@
+.sec-btn {
+  display: inline-block;
+  width: 180px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  @include rem(14);
+  color: $color-txt;
+  font-family: $font-en2;
+  letter-spacing: $ls-title;
+  text-decoration: none;
+  border: 1px solid #fff;
+  transition: .3s;
+  &:hover {
+    color: $color-hover;
+    border: 2px solid #624e3e;
+  }
+}
