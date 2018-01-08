@@ -61,7 +61,10 @@ $(function () {
     var windowWidth = window.innerWidth;
 
     if (windowWidth > 768) {
-      //      PC
+      $(".header__nav-link").click(function () {
+        $(".header__nav").show();
+        return false;
+      });
 
     } else {
       //  ナビゲーション
