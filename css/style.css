@@ -895,15 +895,36 @@ body.vegas-container > .vegas-overlay, body.vegas-container > .vegas-slide, body
     background-size: cover; } }
 
 .sec-shopinfo {
-  background-color: #2f2a19; }
-  .sec-shopinfo__container {
+  background-color: #2f2a19;
+  text-align: center; }
+  .sec-shopinfo__img {
+    margin-bottom: 60px; }
+  .sec-shopinfo__right {
     padding: 0 30px;
     font-size: 14px;
     font-size: 1.4rem;
     line-height: 1.9;
-    letter-spacing: 0.1em; }
+    letter-spacing: 0.1em;
+    text-align: left; }
   .sec-shopinfo__item {
     margin-bottom: 20px; }
+
+@media screen and (min-width: 768px) {
+  .sec-shopinfo__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: left; }
+  .sec-shopinfo__img {
+    margin-bottom: 0;
+    max-width: 400px; }
+  .sec-shopinfo__left {
+    width: 60%;
+    text-align: center; }
+  .sec-shopinfo__right {
+    width: 40%;
+    padding: 0;
+    margin-left: 40px; } }
 
 .map-pc {
   display: none; }

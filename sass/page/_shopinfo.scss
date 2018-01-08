@@ -1,12 +1,39 @@
 .sec-shopinfo {
   background-color: $color-base;
-  &__container {
+  text-align: center;
+  &__img {
+    margin-bottom: 60px;
+  }
+  &__right {
     padding: 0 30px;
     @include rem(14);
     line-height: $lh-txt;
     letter-spacing: $ls-jp-txt;
+    text-align: left;
   }
   &__item {
     margin-bottom: 20px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .sec-shopinfo {
+    &__container {
+      display: flex;
+      text-align: left;
+    }
+    &__img {
+      margin-bottom: 0;
+      max-width: 400px;
+    }
+    &__left {
+      width: 60%;
+      text-align: center;
+    }
+    &__right {
+      width: 40%;
+      padding: 0;
+      margin-left: 40px;
+    }
   }
 }
