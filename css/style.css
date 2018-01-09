@@ -610,12 +610,20 @@ body.vegas-container > .vegas-overlay, body.vegas-container > .vegas-slide, body
   .header__menu-trigger {
     position: fixed;
     top: 5px;
-    left: 5px;
+    right: 5px;
     width: 50px;
     height: 44px;
     -webkit-transform: scale(0.6);
     -ms-transform: scale(0.6);
-    transform: scale(0.6); }
+    transform: scale(0.6);
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    padding: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none; }
   .header__menu-trigger span {
     position: absolute;
     left: 0;
@@ -651,6 +659,8 @@ body.vegas-container > .vegas-overlay, body.vegas-container > .vegas-slide, body
     left: 0px;
     margin: auto;
     z-index: -1; }
+    .header__logo-title {
+      text-indent: -9999px; }
   .header__nav {
     display: none;
     background-color: rgba(27, 27, 27, 0.8);
@@ -683,9 +693,9 @@ body.vegas-container > .vegas-overlay, body.vegas-container > .vegas-slide, body
 
 @media screen and (min-width: 768px) {
   .header__menu-trigger {
-    display: none; }
+    display: none !important; }
   .header__nav {
-    display: block;
+    display: block !important;
     background-color: transparent;
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(27, 27, 27, 0.3)), to(rgba(27, 27, 27, 0)));
     background-image: -webkit-linear-gradient(top, rgba(27, 27, 27, 0.3), rgba(27, 27, 27, 0));
