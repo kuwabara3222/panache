@@ -27,9 +27,9 @@ $(function () {
   });
 
   //  メニューボタン
-  $(".header__menu-trigger").click(function () {
+  $("#trigger").click(function () {
 
-    $(".header__nav").stop().fadeToggle();
+    $("#nav").stop().fadeToggle();
 
     $(this).toggleClass('active');
     return false;
@@ -44,7 +44,7 @@ $(function () {
     }, 1000);
     return false;
   });
-  $(".header__scroll").click(function () {
+  $("#scroll").click(function () {
     $this = $(this).attr("href");
     target = $($this).offset().top;
     $("html,body").stop().animate({
@@ -62,15 +62,15 @@ $(function () {
 
     if (windowWidth > 768) {
       $(".header__nav-link").click(function () {
-        $(".header__nav").show();
+        $("#nav").show();
         return false;
       });
 
     } else {
       //  ナビゲーション
       $(".header__nav-link").click(function () {
-        $(".header__nav").stop().fadeToggle();
-        $(".header__menu-trigger").toggleClass('active');
+        $("#nav").stop().fadeToggle();
+        $("#trigger").toggleClass('active');
         return false;
       });
     }

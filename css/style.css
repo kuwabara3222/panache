@@ -836,7 +836,8 @@ body.vegas-container > .vegas-overlay, body.vegas-container > .vegas-slide, body
       text-align: right; }
   .sec-menu__txt {
     text-align: right;
-    margin-bottom: 10px; }
+    margin-bottom: 10px;
+    font-family: "Sawarabi Mincho", Sans-Serif; }
     .sec-menu__txt.last {
       margin-bottom: 0; }
 
