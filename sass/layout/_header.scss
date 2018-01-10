@@ -101,8 +101,6 @@
   &__logo {
     width: 155px;
     height: 192px;
-    background: url(../img/mv_logo@2x.png);
-    background-size: 100% 100%;
     position: fixed;
     top: 0px;
     right: 0px;
@@ -110,9 +108,6 @@
     left: 0px;
     margin: auto;
     z-index: -1;
-    &-title {
-      text-indent: -9999px;
-    }
   }
   &__nav {
     display: none;

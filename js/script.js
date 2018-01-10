@@ -89,9 +89,9 @@ $(function () {
       resolution: 'thumbnail',
       template: '<a class="insta-link" href="{{link}}"><img src="{{image}}" target="_blank"></a>'
     });
-    $('#btn-more').click(function () {
-      feed.next();
-    });
+    //    $('#btn-more').click(function () {
+    //      feed.next();
+    //    });
     feed.run();
   });
 

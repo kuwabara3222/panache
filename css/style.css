@@ -650,8 +650,6 @@ body.vegas-container > .vegas-overlay, body.vegas-container > .vegas-slide, body
   .header__logo {
     width: 155px;
     height: 192px;
-    background: url(../img/mv_logo@2x.png);
-    background-size: 100% 100%;
     position: fixed;
     top: 0px;
     right: 0px;
@@ -659,8 +657,6 @@ body.vegas-container > .vegas-overlay, body.vegas-container > .vegas-slide, body
     left: 0px;
     margin: auto;
     z-index: -1; }
-    .header__logo-title {
-      text-indent: -9999px; }
   .header__nav {
     display: none;
     background-color: rgba(27, 27, 27, 0.8);
@@ -775,7 +771,7 @@ body.vegas-container > .vegas-overlay, body.vegas-container > .vegas-slide, body
   transition: .3s; }
   .sec-btn:hover {
     color: #624e3e;
-    border: 2px solid #624e3e; }
+    border: 1px solid #624e3e; }
 
 .sec-concept {
   background: url(../../img/concept_bg@2x.jpg) no-repeat center center;
