@@ -81,9 +81,9 @@ $(function () {
     var feed = new Instafeed({
       target: 'instafeed',
       get: 'user',
-      userId: '6878054582',
-      accessToken: '6878054582.d0d7783.d99cde8216004082af420886c16df574',
-      clientId: 'd0d77832cd524fb691bec279a52881d2',
+      userId: '6886604924',
+      accessToken: '6886604924.9f36924.294f670568b44d89a60381d4e59aadf5',
+      clientId: '9f369245a1d74d7f9eec66dc9989c852',
       links: true,
       limit: 8,
       resolution: 'thumbnail',
